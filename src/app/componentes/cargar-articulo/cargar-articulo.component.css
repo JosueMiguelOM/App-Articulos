@@ -1,0 +1,31 @@
+.entrada{
+    position: relative;
+}
+i{
+    position: absolute;
+    left: 13px;
+    top: 12px;
+}
+.form-control{
+    padding-left: 40px;
+}
+.card{
+    padding: 40px;
+    width: 450px;
+    margin-top: 60px;
+}
+button{
+    width: 100%;
+    margin-bottom: 15px;
+}
+a{
+    width: 100%; 
+}
+#emailHelp{
+    text-align: center;
+}
+.custom-file-input-container {
+    width: 200px;
+    height: 30px;
+  }
+  

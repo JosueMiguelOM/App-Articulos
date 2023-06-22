@@ -1,0 +1,58 @@
+<div class="card mx-auto">
+  <div class="card-header text-center">
+    <h5 style="color: blue; font-size: xx-large">Cargar Articulo</h5>
+  </div>
+  <form action="/cargar-articulo">
+    <div>
+      <div class="entrada mb-3 mt-3">
+        <i class="fa-solid fa-building-columns"></i>
+        <select class="form-control" id="exampleComboBox">
+          <option>Tipo Subsistema</option>
+          <option>Universidad Tecnológica</option>
+          <option>Universidad Politécnica</option>
+          <option>Instituto Tecnológico</option>
+        </select>
+      </div>
+      <div class="entrada mb-3 mt-3">
+        <i class="fa-solid fa-book"></i>
+        <input
+          type="titulo"
+          class="form-control"
+          id="exampleInputTitulo1"
+          aria-describedby="tituloHelp"
+          placeholder="Titulo Artículo"
+        />
+      </div>
+      <div class="entrada mb-3 mt-3">
+        <i class="fa-solid fa-user"></i>
+        <input
+          type="author"
+          class="form-control"
+          id="exampleInputAuthor1"
+          aria-describedby="authorHelp"
+          placeholder="Autor"
+        />
+      </div>
+      <div class="entrada mb-3 mt-3">
+        <i class="fa-solid fa-book-open"></i>
+        <textarea
+          class="form-control"
+          rows="4"
+          placeholder="Breve resumen del artículo"
+        ></textarea>
+      </div>
+      <div class="entrada mb-3 mt-3">
+        <i class="fa-solid fa-file-upload"></i>
+        <div class="form-control">
+        <input 
+        type="file" 
+        class="form-control-file" 
+        id="exampleInputFile1"
+        >
+      </div>     
+</div>
+      <button type="submit" class="btn btn-primary">Cargar Archivo</button>
+      <a class="btn btn-danger" href="/login">Cerrar Sesión</a>
+    </div>
+  </form>
+</div>

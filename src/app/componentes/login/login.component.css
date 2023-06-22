@@ -1,0 +1,22 @@
+.entrada{
+    position: relative;
+}
+i{
+    position: absolute;
+    left: 13px;
+    top: 12px;
+}
+.form-control{
+    padding-left: 40px;
+}
+.card{
+    padding: 40px;
+    width: 400px;
+    margin-top: 60px;
+}
+button{
+    width: 100%;
+}
+#emailHelp{
+    text-align: center;
+}
